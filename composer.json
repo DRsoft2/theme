@@ -1,0 +1,12 @@
+{
+    "name": "drsoft/theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dif Rabie",
+            "email": "dif.rabie@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
