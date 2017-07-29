@@ -44,7 +44,7 @@ class Theme
     }
     public static function getPathThemes()
     {
-        return Config::get('drthemes.root_path');
+        return Config::get('theme.root_path');
         // return 'layouts.themes.';
     }
     public static function getPathTemplates()

@@ -16,6 +16,7 @@ class ThemeServiceProvider extends ServiceProvider
         //
         require __DIR__.'/routes/routes.php';
        $this->loadViewsFrom(__DIR__.'\\Views\\','theme');
+        $this->publishes([__DIR__.'/config/theme.php'=>config_path('')],'config');
     }
 
     /**
