@@ -8,10 +8,12 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "illuminate/support": "~5"
+    },
     "autoload": {
         "psr-4": {
-            "Drsoft\\Theme\\": ""
+            "Drsoft\\Theme\\": "src/"
         }
     }
 }
